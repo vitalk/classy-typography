@@ -1,0 +1,22 @@
+// Typography and vertical rhythm.
+//
+// Styleguide 1.1.4.
+
+@classy-lead-font-size: 1.15em;
+@classy-small-font-size: .85em;
+
+// 1. Paragraph has no margin...
+// 2. ...except between the series of paragraphs.
+p {
+    margin: 0; // 1
+    &+ & { margin-top: @unit; } // 2
+}
+
+// 1. Emphasize the leading paragraphs by making text a little bit larger.
+.@{classy-namespace}.lead {
+    font-size: @classy-lead-font-size; // 1
+}
+
+strong { font-weight: bold; }
+em     { font-style: italic; }
+small  { font-size: @classy-small-font-size; }

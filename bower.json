@@ -1,0 +1,17 @@
+{
+  "name": "classy-typography",
+  "version": "0.1.0",
+  "authors": [
+    "Vital Kudzelka <vital.kudzelka@gmail.com>"
+  ],
+  "description": "Classy typography and vertical rhythm",
+  "main": "base.typography.less",
+  "keywords": [
+    "css",
+    "oocss"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "classy-defaults": "~0.1.0"
+  }
+}
