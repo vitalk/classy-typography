@@ -5,10 +5,10 @@
 @classy-lead-font-size: 1.15em;
 @classy-small-font-size: .85em;
 
-// 1. Paragraph has no margin...
-// 2. ...except between the series of paragraphs.
+// 1. Add margin after paragraphs.
+// 2. As well as between them.
 p {
-    margin: 0; // 1
+    margin-bottom: @classy-unit; // 1
     &+ & { margin-top: @classy-unit; } // 2
 }
 
