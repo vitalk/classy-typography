@@ -1,6 +1,6 @@
 {
   "name": "classy-typography",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "authors": [
     "Vital Kudzelka <vital.kudzelka@gmail.com>"
   ],
@@ -12,6 +12,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "classy-defaults": "~0.2.0"
+    "classy-defaults": "~0.2.2"
   }
 }
